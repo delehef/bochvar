@@ -43,7 +43,7 @@ end
 
 function fish_right_prompt
 	printf '%s ' (__fish_git_prompt)
-	set_color red
+	set_color af00d7
 	printf '%s ' (git_pwd)
 	set_color normal
 end

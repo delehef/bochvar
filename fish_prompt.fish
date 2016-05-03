@@ -8,7 +8,7 @@ function fish_prompt
 		set_color red
 		printf "⊥"
 	else
-		set_color blue
+		set_color 0087ff
 		printf "⊢"
 	end
 	set_color normal
